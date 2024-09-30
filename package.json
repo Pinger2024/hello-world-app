@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "cd client && npm install && npm run build",
-    "postinstall": "npm run build"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.0"
-  }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "ISC",
+  "keywords": [],
+  "author": "",
+  "description": ""
 }
