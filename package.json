@@ -2,10 +2,11 @@
   "name": "hello-world-app",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
+  // package.json
+"scripts": {
   "start": "node index.js",
   "build": "cd client && npm install && npm run build",
-  "heroku-postbuild": "npm run build"
+  "postinstall": "npm run build"
 },
   "keywords": [],
   "author": "",
